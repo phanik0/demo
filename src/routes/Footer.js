@@ -1,12 +1,11 @@
 import React from 'react';
-import Footer from "./Footer";
 
-const footer = () => {
+const Footer = () => {
     return (
-        <div>
-            Footer
-        </div>
+        <footer>
+            <address>서울시 서초구</address>
+        </footer>
     );
-}
+};
 
 export default Footer;

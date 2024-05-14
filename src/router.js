@@ -26,6 +26,13 @@ const router = createBrowserRouter([
     },
     {
         path: "/video",
+        element: <VideoList />,
+        children: [
+
+        ]
+    },
+    {
+        path: "/video/search",
         element: <Root />,
         children: [
 
